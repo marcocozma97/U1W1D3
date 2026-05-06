@@ -2,7 +2,8 @@ table {
   border-collapse: collapse;
 }
 
-th, td {
+th,
+td {
   border: 1px solid black;
 }
 
@@ -52,7 +53,7 @@ nav a:hover {
   background-color: rgba(255, 255, 255, 0.2);
 }
 
-h2{
+h2 {
   font-size: 1.7rem;
   text-align: left;
   color: #ce4d02;
@@ -94,27 +95,36 @@ label {
   color: #692e00;
 }
 
-input, textarea {
- font-family: "Helvetica Neue", Arial, sans-serif;
- font-size: 1rem;
- width: auto;
- background-color: rgb(255, 242, 224);
+input,
+textarea,
+select {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-size: 1rem;
+  width: 60%;
+  background-color: rgb(255, 242, 224);
 }
 
-input:focus, textarea:focus {
+input:focus,
+textarea:focus,
+select:focus {
   background-color: rgb(255, 203, 197);
 }
 
-input:hover, textarea:hover {
+input:hover,
+textarea:hover,
+select:hover {
   background-color: rgb(255, 225, 221);
 }
 
+#consenso {
+  width: auto;
+}
 
 button {
   color: rgb(255, 254, 253);
   background-color: hsl(20, 100%, 50%);
   font-weight: bold;
-  width: 30% ;
+  width: 30%;
 }
 
 button:hover {
@@ -122,8 +132,8 @@ button:hover {
 }
 
 #site-footer {
- background-color: #692e00;
- color: #ffffff;
- font-size: 0.9rem;
- text-align: center;
+  background-color: #692e00;
+  color: #ffffff;
+  font-size: 0.9rem;
+  text-align: center;
 }
