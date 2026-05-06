@@ -1,0 +1,132 @@
+table {
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid black;
+}
+
+body {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.7;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.foto-profilo {
+  margin-left: auto;
+}
+
+#site-header {
+  background-color: #cb3e3e;
+  background-image: url("https://imgs.search.brave.com/bT0IAZiE0gi-_LvVYpwXd1QzQZz_WdB0xS3BvY2SgxY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/dmV0dG9yaS1ncmF0/dWl0by9zZm9uZG8t/YXJhbmNpb25lLWFz/dHJhdHRvXzY5ODQ1/Mi0zMDQ5LmpwZz9z/ZW10PWFpc19pbmNv/bWluZyZ3PTc0MCZx/PTgw");
+  background-size: cover;
+  background-position: center;
+  color: #000000;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+#site-header h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.tagline {
+  color: rgb(1, 1, 202);
+  font-style: italic;
+}
+
+nav a {
+  color: #0b0045;
+  line-height: 3;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #cf5a00;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+h2{
+  font-size: 1.7rem;
+  text-align: left;
+  color: #ce4d02;
+}
+
+#chi-sono {
+  background-color: #ffffff;
+  text-align: justify;
+}
+
+#chi-sono p:first-of-type {
+  font-size: 1.2rem;
+  font-style: italic;
+  color: rgb(96, 28, 1);
+}
+
+.skill-list li:nth-child(odd) {
+  background-color: #fed7a5;
+}
+
+.skill-list li:nth-child(even) {
+  background-color: #f9a75a;
+}
+
+.skill-list li:first-child {
+  font-weight: bold;
+}
+
+.project:nth-of-type(odd) {
+  background-color: #f4c677;
+}
+
+.project:nth-of-type(even) {
+  background-color: #fde5c6;
+}
+
+label {
+  font-weight: bold;
+  color: #692e00;
+}
+
+input, textarea {
+ font-family: "Helvetica Neue", Arial, sans-serif;
+ font-size: 1rem;
+ width: 60%;
+ background-color: rgb(255, 242, 224);
+}
+
+input:focus, textarea:focus {
+  background-color: rgb(255, 203, 197);
+}
+
+input:hover, textarea:hover {
+  background-color: rgb(255, 225, 221);
+}
+
+input[type="checkbox"] {
+  width: auto;
+}
+
+button {
+  color: rgb(255, 254, 253);
+  background-color: hsl(20, 100%, 50%);
+  font-weight: bold;
+  width: 30% ;
+}
+
+button:hover {
+  background-color: hsl(20, 100%, 31%);
+}
+
+#site-footer {
+ background-color: #692e00;
+ color: #ffffff;
+ font-size: 0.9rem;
+ text-align: center;
+}
